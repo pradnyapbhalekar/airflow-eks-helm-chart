@@ -28,10 +28,10 @@ gid: 50000
 airflowHome: "/opt/airflow"
 
 # Default airflow repository -- overrides all the specific images below
-defaultAirflowRepository: apache/airflow
+defaultAirflowRepository: 823456998416.dkr.ecr.us-east-1.amazonaws.com/airflow
 
 # Default airflow tag to deploy
-defaultAirflowTag: 1.10.10.1-alpha2-python3.6
+defaultAirflowTag: pradnyapy7
 
 
 # Select certain nodes for airflow pods.
